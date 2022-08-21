@@ -1,0 +1,101 @@
+body {
+    background-color: #DFDFE0;
+    font-family: 'Bosch Office Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Bosch Sans', sans-serif;
+    font-weight: normal;
+    font-size: 35px;
+    display: inline;
+    margin: 0px 10px;
+}
+
+img {
+    vertical-align: text-bottom;
+}
+
+label {
+    display: inline;
+    vertical-align: middle;
+    margin: auto 1em;
+    font-family: 'Bosch Sans Bold', sans-serif;
+    color: #424C58;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.pane {
+    width: 95%;
+    margin: 20px auto;
+}
+
+.full {
+    width: 100%;
+    margin: auto;
+}
+
+#header {
+    /*background-image: url('bosch_logo_english.png');*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: top right;*/
+}
+
+#controls {
+    margin-top: 10px;
+}
+
+#production-table {
+    margin: 20px auto;
+}
+
+#curve-graph {
+    clear: both;
+    display: block;
+    height: 750px;
+}
+
+#div-last-request {
+    display: none;
+}
+
+#input-device {
+    width: 365px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#input-xalign {
+    width: 90%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.radio-label {
+    font-weight: normal;
+    font-family: 'Bosch Sans', sans-serif;
+}
+
+#input-process-result {
+    width: 185px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#copyright {
+    text-align: center;
+}
+
+div.hidden {
+    display: none;
+}
+
+div.visible {
+    display: block;
+}
